@@ -1,2 +1,2 @@
-# C--Journey
+# C#-Journey
 My journey in learning C#!
