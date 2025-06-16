@@ -1,4 +1,4 @@
-//LEARNING VARIABLES MANIPULATION
+//LEARNING STRING VARIABLES MANIPULATION
 //-----------------------------------------------------------------------------------------------------------
 //String Concatenation
 string greet = "Hello";
