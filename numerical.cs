@@ -58,6 +58,16 @@ On the other hand, when you add to the minimum value it will just continue to ad
 get the maximum value then same process
 */
 
+//To fix this use long
+int a = 2100000000;
+int b = 2100000000;
+long c = (long)a + (long)b;
+Console.WriteLine(c) //4100000000
+/*
+  This makes the variable a and b which doesn't have enought storage,
+  converts the two variable into long, which has more bit or storage than integers.
+  */
+
 //DOUBLE - represent double-precision floating point number. 
 double a = 5;
 double b = 4;
