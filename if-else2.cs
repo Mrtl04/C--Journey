@@ -13,12 +13,14 @@ class if_else2
         //User Input
         userintput = Convert.ToInt32(Console.ReadLine());
 
-        //Calculation 
+        //Calculation - So basically, it will devide the number to 2 and if the number is odd there will be a remainder.
         remainder = userintput % 2;
+        //Conditional Statement
         if (remainder == 0)
         {
             Console.WriteLine($"{userintput} is an even number!");
         }
+        //Otherwise
         else
         {
             Console.WriteLine($"{userintput} is an odd number!");
